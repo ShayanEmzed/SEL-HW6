@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 user = 'postgres'
 pwd = 'postgres'
 db = 'postgres'
-host = 'localhost'
+host = 'db'
 port = '5432'
 engine = create_engine('postgresql://%s:%s@%s:%s/%s' % (user, pwd, host, port, db)) 
 
