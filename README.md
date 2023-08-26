@@ -2,7 +2,7 @@
 ### نمودار UML
 به صورت زیر سه کامپوننت (کانتینر) مدنظر را به هم وصل می‌کنیم. بدین ترتیب ریکوئست از سمت کاربر آمده و به nginx می‌رسد، پس از load_balancing این کامپوننت تشخیص می‌دهد که ریکوئست به کجا رفته و فایل اپلیکیشن کوئری صحیح را به دیتابیس ارسال می‌کند.
 
-<img width="679" alt="image" src="https://github.com/ShayanEmzed/SEL-HW6/assets/60621655/61aea1d0-a0fd-4549-890e-031090737b83">
+<img width="751" alt="image" src="https://github.com/ShayanEmzed/SEL-HW6/assets/60621655/af556b42-f845-4a6a-971c-38b3f515927e">
 
 ### فایل‌های docker
 برای اپلیکیشن flask فایل داکر زیر را می‌سازیم:
